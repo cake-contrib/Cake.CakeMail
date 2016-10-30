@@ -3,10 +3,10 @@
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>Cake.CakeMail</id>
     <version>0.0.0</version>
-    <authors>gep13</authors>
-    <owners>gep13</owners>
+    <authors>jericho</authors>
+    <owners>jericho cake-contrib</owners>
     <description>Cake CakeMail AddIn.</description>
-    <summary>Cake AddIn that extends Cake with ability to execute the gem command line utility.</summary>
+    <summary>Cake AddIn that extends Cake with ability to send emails via CakeMail.</summary>
     <licenseUrl>https://github.com/cake-contrib/Cake.CakeMail/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/cake-contrib/Cake.CakeMail/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,5 +17,8 @@
     <file src="Cake.CakeMail.dll" />
     <file src="Cake.CakeMail.pdb" />
     <file src="Cake.CakeMail.xml" />
+    <file src="CakeMail.RestClient.dll" />
+    <file src="Newtonsoft.Json.dll" />
+    <file src="RestSharp.dll" />
   </files>
 </package>
