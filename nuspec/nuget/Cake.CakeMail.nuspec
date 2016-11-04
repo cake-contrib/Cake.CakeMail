@@ -14,11 +14,11 @@
     <tags>Cake, Script, Build, CakeMail</tags>
   </metadata>
   <files>
-    <file src="Cake.CakeMail.dll" />
-    <file src="Cake.CakeMail.pdb" />
-    <file src="Cake.CakeMail.xml" />
-    <file src="CakeMail.RestClient.dll" />
-    <file src="Newtonsoft.Json.dll" />
-    <file src="RestSharp.dll" />
+    <file src="Cake.CakeMail.dll" target="lib\net45" />
+    <file src="Cake.CakeMail.pdb" target="lib\net45" />
+    <file src="Cake.CakeMail.xml" target="lib\net45" />
+    <file src="CakeMail.RestClient.dll" target="lib\net45" />
+    <file src="Newtonsoft.Json.dll" target="lib\net45" />
+    <file src="RestSharp.dll" target="lib\net45" />
   </files>
 </package>
