@@ -34,6 +34,7 @@ namespace Cake.CakeMail
         /// <param name="settings">The settings to be used when sending the email</param>
         /// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure</returns>
         /// <example>
+        /// <code>
         /// var apiKey = "... your api key ...";
         /// var userName = "... your username ...";
         /// var password = "... your password ...";
@@ -66,6 +67,7 @@ namespace Cake.CakeMail
         /// {
         ///     Error("{0}", ex);
         /// }
+        /// </code>
         /// </example>
         [CakeAliasCategory("Email")]
         public CakeMailResult SendEmail(string senderName, string senderAddress, string recipientAddress, string subject, string htmlContent, string textContent, CakeMailSettings settings)
