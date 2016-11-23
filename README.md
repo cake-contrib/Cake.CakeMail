@@ -1,5 +1,5 @@
 # Cake.CakeMail
-#AppVeyorTest
+
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://cake-contrib.mit-license.org)
 
 Cake.CakeMail is an Addin for [Cake](http://cakebuild.net/) which allows sending of email from your build scripts via CakeMail.
