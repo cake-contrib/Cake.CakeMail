@@ -21,6 +21,10 @@ Cake.CakeMail is an Addin for [Cake](http://cakebuild.net/) which allows sending
 
 [![Coverage Status](https://coveralls.io/repos/github/cake-contrib/Cake.CakeMail/badge.svg)](https://coveralls.io/github/cake-contrib/Cake.CakeMail)
 
+## Quick Links
+
+- [Documentation](https://cake-contrib.github.io/Cake.CakeMail/)
+
 ## Chat Room
 Come join in the conversation about Cake.CakeMail in our Gitter Chat Room
 
