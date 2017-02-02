@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/Cake.CakeMail/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/Cake.CakeMail/assets/img/favicon.ico" type="image/x-icon">
-        <title>Docs - Examples</title>
+        <title>Docs - February, 2017</title>
         <link href="/Cake.CakeMail/assets/css/mermaid.css" rel="stylesheet">
         <link href="/Cake.CakeMail/assets/css/highlight.css" rel="stylesheet">
         <link href="/Cake.CakeMail/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
@@ -58,8 +58,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
                         <ul class="nav navbar-nav">                            
-                                    <li class="active"><a href="/Cake.CakeMail/docs">Documentation</a></li>
-        <li><a href="/Cake.CakeMail/blog">Blog</a></li>
+                                    <li><a href="/Cake.CakeMail/docs">Documentation</a></li>
+        <li class="active"><a href="/Cake.CakeMail/blog">Blog</a></li>
         <li><a href="/Cake.CakeMail/api">API</a></li>
  
                         </ul>       
@@ -74,7 +74,6 @@
             <aside class="main-sidebar ">
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
-        <div><p><a href="https://github.com/cake-contrib/Cake.CakeMail/tree/develop/docs/input/docs/usage/examples.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
     <div id="infobar-headings"></div>
 
                 </section>
@@ -83,13 +82,15 @@
 
                     <ul class="sidebar-menu">
                         
-                <li class="treeview active">
-                    <a href="/Cake.CakeMail/docs/usage">Usage</a> <a href="#" class="expand"></a>
-                    <ul class="treeview-menu">
-                                        <li class="selected"><a href="/Cake.CakeMail/docs/usage/examples">Examples</a></li>
 
-                    </ul>
-                </li>
+    <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
+        <li><a href="/blog/release">Release</a></li>
+    
+    <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
+        <li class="selected"><a href="/blog/archive/2017/02">February, 2017</a></li>
+    
+    <li class="header"><i class="fa fa-user"></i> Authors</li>    
+        <li><a href="/blog/author/gep13">gep13</a></li>
 
                     </ul>
                 </section>                
@@ -102,50 +103,33 @@
 
 
 	<section class="content-header">
-		<h1>Examples</h1>
+		<h1>February, 2017</h1>
 	</section>
 	<section class="content">
-		<pre><code class="language-csharp">#addin Cake.CakeMail
+		
 
-var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
-var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
-var password = EnvironmentVariable(&quot;CAKEMAIL_PASSWORD&quot;);
+        <h2><a href="/Cake.CakeMail/blog/new-release-0.2.0">New Release - 0.2.0</a></h2>
+<dl class="dl-horizontal">
+    <dt><i class="fa fa-calendar"></i> Published</dt>
+    <dd>02 February 2017</dd>
+        <dt><i class="fa fa-bookmark"></i> Category</dt>
+        <dd><a href="/blog/release">Release</a></dd>
+            <dt><i class="fa fa-user"></i> Author</dt>
+        <dd><a href="/blog/author/gep13">gep13</a></dd>
+</dl>            <div>
+                <p>Thanks to a contribution from @devlead, we are releasing 0.2.0 of Cake.CakeMail.  This includes the following:</p>
+                <a href="/Cake.CakeMail/blog/new-release-0.2.0">Read more...</a>
+            </div>
+        <hr />
+    <nav>
+        <ul class="pager">
+            <li class="previous">                
+            </li>
+            <li class="next">
+            </li>
+        </ul>
+    </nav>
 
-Task(&quot;SendEmail&quot;)
-    .Does(() =&gt;
-{
-    try
-    {
-        var result = CakeMail.SendEmail(
-                senderName: &quot;Bob Smith&quot;, 
-                senderAddress: &quot;bob&#64;example.com&quot;,
-                recipientAddress: &quot;jane&#64;example.com&quot;,
-                subject: &quot;This is a test&quot;,
-                htmlContent: &quot;&lt;html&gt;&lt;body&gt;This is a test&lt;/body&gt;&lt;/html&gt;&quot;,
-                textContent: &quot;This is a test&quot;,
-                settings: new CakeMailEmailSettings
-                {
-                    ApiKey = apiKey,
-                    UserName = userName,
-                    Password = password
-                }
-        );
-
-        if (result.Ok)
-        {
-            Information(&quot;Email succcessfully sent&quot;);
-        }
-        else
-        {
-            Error(&quot;Failed to send email: {0}&quot;, result.Error);
-        }
-    }
-    catch(Exception ex)
-    {
-        Error(&quot;{0}&quot;, ex);
-    }
-});
-</code></pre>
 
 	</section>
                 
