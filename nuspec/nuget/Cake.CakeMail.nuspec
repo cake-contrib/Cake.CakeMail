@@ -19,6 +19,7 @@
     <file src="Cake.CakeMail.xml" target="lib\net45" />
     <file src="CakeMail.RestClient.dll" target="lib\net45" />
     <file src="Newtonsoft.Json.dll" target="lib\net45" />
-    <file src="RestSharp.dll" target="lib\net45" />
+    <file src="Pathoschild.Http.Client.dll" target="lib\net45" />
+    <file src="System.Net.Http.Formatting.dll" target="lib\net45" />
   </files>
 </package>
