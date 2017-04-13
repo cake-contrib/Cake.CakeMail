@@ -9,7 +9,7 @@ Cake.CakeMail is an Addin for [Cake](http://cakebuild.net/) which allows sending
 | |Stable|Pre-release|
 |:--:|:--:|:--:|
 |GitHub Release|-|[![GitHub release](https://img.shields.io/github/release/cake-contrib/Cake.CakeMail.svg)](https://github.com/cake-contrib/Cake.CakeMail/releases/latest)|
-|NuGet|[![NuGet](https://img.shields.io/nuget/v/Cake.CakeMail.svg)](https://www.nuget.org/packages/Cake.CakeMail)|[![NuGet](https://img.shields.io/nuget/vpre/Cake.CakeMail.svg)](https://www.nuget.org/packages/Cake.CakeMail)|
+|Package|[![NuGet](https://img.shields.io/nuget/v/Cake.CakeMail.svg)](https://www.nuget.org/packages/Cake.CakeMail)|[![MyGet](https://img.shields.io/myget/cake-contrib/vpre/Cake.CakeMail.svg)](http://myget.org/feed/cake-contrib/package/nuget/Cake.CakeMail)|
 
 ## Build Status
 
