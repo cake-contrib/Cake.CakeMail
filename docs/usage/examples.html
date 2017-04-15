@@ -105,7 +105,8 @@
 		<h1>Examples</h1>
 	</section>
 	<section class="content">
-		<pre><code class="language-csharp">#addin Cake.CakeMail
+		<p><strong>Sending an email to a single recipient:</strong></p>
+<pre><code class="language-csharp">#addin Cake.CakeMail
 
 var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
 var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
@@ -119,6 +120,53 @@ Task(&quot;SendEmail&quot;)
         var result = CakeMail.SendEmail(
                 senderName: &quot;Bob Smith&quot;, 
                 senderAddress: &quot;bob&#64;example.com&quot;,
+                recipientAddress: &quot;jane&#64;example.com&quot;,
+                subject: &quot;This is a test&quot;,
+                htmlContent: &quot;&lt;html&gt;&lt;body&gt;This is a test&lt;/body&gt;&lt;/html&gt;&quot;,
+                textContent: &quot;This is a test&quot;,
+                settings: new CakeMailEmailSettings
+                {
+                    ApiKey = apiKey,
+                    UserName = userName,
+                    Password = password
+                }
+        );
+
+        if (result.Ok)
+        {
+            Information(&quot;Email succcessfully sent&quot;);
+        }
+        else
+        {
+            Error(&quot;Failed to send email: {0}&quot;, result.Error);
+        }
+    }
+    catch(Exception ex)
+    {
+        Error(&quot;{0}&quot;, ex);
+    }
+});
+</code></pre>
+<p><strong>Sending an email to multiple recipients:</strong></p>
+<pre><code class="language-csharp">#addin Cake.CakeMail
+
+var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
+var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
+var password = EnvironmentVariable(&quot;CAKEMAIL_PASSWORD&quot;);
+
+Task(&quot;SendEmail&quot;)
+    .Does(() =&gt;
+{
+    try
+    {
+        var result = CakeMail.SendEmail(
+                senderName: &quot;Bob Smith&quot;, 
+                senderAddress: &quot;bob&#64;example.com&quot;,
+                recipients: new[]
+                {
+                    &quot;jane&#64;example.com&quot;,
+                    &quot;bob&#64;example.com&quot;
+                },
                 recipientAddress: &quot;jane&#64;example.com&quot;,
                 subject: &quot;This is a test&quot;,
                 htmlContent: &quot;&lt;html&gt;&lt;body&gt;This is a test&lt;/body&gt;&lt;/html&gt;&quot;,
