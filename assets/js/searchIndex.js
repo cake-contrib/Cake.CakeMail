@@ -34,16 +34,16 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"CakeMailSettings",
-        content:"CakeMailSettings",
+        title:"CakeMailResult",
+        content:"CakeMailResult",
         description:'',
         tags:''
     });
 
     a({
         id:1,
-        title:"CakeMailResult",
-        content:"CakeMailResult",
+        title:"CakeMailSettings",
+        content:"CakeMailSettings",
         description:'',
         tags:''
     });
@@ -65,14 +65,14 @@ var searchModule = function() {
     });
 
     y({
-        url:'/Cake.CakeMail/Cake.CakeMail/api/Cake.CakeMail.Email/CakeMailSettings',
-        title:"CakeMailSettings",
+        url:'/Cake.CakeMail/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
+        title:"CakeMailResult",
         description:""
     });
 
     y({
-        url:'/Cake.CakeMail/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
-        title:"CakeMailResult",
+        url:'/Cake.CakeMail/Cake.CakeMail/api/Cake.CakeMail.Email/CakeMailSettings',
+        title:"CakeMailSettings",
         description:""
     });
 
