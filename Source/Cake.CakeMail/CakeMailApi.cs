@@ -44,6 +44,11 @@ namespace Cake.CakeMail.Email
             }
             catch (Exception e)
             {
+                while (e.InnerException != null)
+                {
+                    e = e.InnerException;
+                }
+
                 if (settings.ThrowOnFail.HasValue && settings.ThrowOnFail.Value)
                 {
                     throw new CakeException(e.Message);
