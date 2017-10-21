@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head>
+﻿<!DOCTYPE html><html><head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="description">
@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/Cake.CakeMail/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/Cake.CakeMail/assets/img/favicon.ico" type="image/x-icon">
-        <title>Docs - API - global Namespace</title>
+        <title>Cake.CakeMail - API - CakeMailProvider.SendEmail(string, string, MailAddress, string, string, string, CakeMailSettings) Method</title>
         <link href="/Cake.CakeMail/assets/css/mermaid.css" rel="stylesheet">
         <link href="/Cake.CakeMail/assets/css/highlight.css" rel="stylesheet">
         <link href="/Cake.CakeMail/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <header class="main-header">   
                      
                 <a href="/Cake.CakeMail/" class="logo">
-                            <span>Docs</span>
+                            <span>Cake.CakeMail</span>
                 </a>   
                          
                 <nav class="navbar navbar-static-top" role="navigation">
@@ -72,15 +72,20 @@
             <aside class="main-sidebar ">
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
-	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Namespaces">Namespaces</a></p>
+	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Summary">Summary</a></p>
+<p><a href="#Syntax">Syntax</a></p>
+<p><a href="#Examples">Examples</a></p>
+<p><a href="#Attributes">Attributes</a></p>
+<p><a href="#Parameters">Parameters</a></p>
+<p><a href="#ReturnValue">Return Value</a></p>
 <hr class="infobar-hidden">
 </div>
 
                 </section>
                 <section class="sidebar">                    
                     	
-	    <script src="/assets/js/lunr.min.js"></script>
-    <script src="/assets/js/searchIndex.js"></script>
+	    <script src="/Cake.CakeMail/assets/js/lunr.min.js"></script>
+    <script src="/Cake.CakeMail/assets/js/searchIndex.js"></script>
     <div class="sidebar-form">
         <div class="input-group">
             <input type="text" name="search" id="search" class="form-control" placeholder="Search Types...">
@@ -105,7 +110,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -117,24 +122,32 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
 
                     <ul class="sidebar-menu">
                         
-	<li class="header">Namespaces</li>   
+			<li class="header">Namespace</li>
+		<li><a href="/Cake.CakeMail/api/Cake.CakeMail">Cake<wbr>.CakeMail</a></li>
+		<li class="header">Type</li>
+		<li><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider">CakeMailProvider</a></li>
+		<li role="separator" class="divider"></li>
+			<li class="header">Constructors</li>
+				<li><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider/B5EB9C03">CakeMailProvider<wbr>(ICakeContext)<wbr></a></li>
+			<li class="header">Method Members</li>
+				<li><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider/5A218EDE">SendEmail<wbr>(string, <wbr>string, <wbr>string, <wbr>string, <wbr>string, <wbr>string, <wbr>CakeMailSettings)<wbr></a></li>
+				<li class="selected"><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider/DD4A60D9">SendEmail<wbr>(string, <wbr>string, <wbr>MailAddress, <wbr>string, <wbr>string, <wbr>string, <wbr>CakeMailSettings)<wbr></a></li>
+				<li><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider/AE800459">SendEmail<wbr>(string, <wbr>string, <wbr>IEnumerable<wbr>&lt;MailAddress&gt;<wbr>, <wbr>string, <wbr>string, <wbr>string, <wbr>CakeMailSettings)<wbr></a></li>
+				<li><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider/D985851E">SendEmail<wbr>(string, <wbr>string, <wbr>IEnumerable<wbr>&lt;string&gt;<wbr>, <wbr>string, <wbr>string, <wbr>string, <wbr>CakeMailSettings)<wbr></a></li>
 
-				<li class="treeview">
-				<a href="/Cake.CakeMail/api/Cake">Cake</a> <a href="#" class="expand"></a>
-				<ul class="treeview-menu">
-			
-				<li class="treeview">
-				<a href="/Cake.CakeMail/api/Cake.CakeMail">Cake<wbr>.CakeMail</a> <a href="#" class="expand"></a>
-				<ul class="treeview-menu">
-						<li><a href="/Cake.CakeMail/api/Cake.CakeMail.Email">Cake<wbr>.CakeMail<wbr>.Email</a></li>
-</ul></li></ul></li>			<li class=" selected"><a href="/Cake.CakeMail/api/global">global</a></li>
-      
 
                     </ul>
                 </section>                
@@ -147,31 +160,160 @@
 
 
 <section class="content-header">
-	<h1>global <small>Namespace</small></h1>
+			<h3><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider">CakeMailProvider</a>.</h3>
+	<h1>SendEmail<wbr>(string, <wbr>string, <wbr>MailAddress, <wbr>string, <wbr>string, <wbr>string, <wbr>CakeMailSettings)<wbr> <small>Method</small></h1>
 </section>
 <section class="content">
 	
 	
-	
+		<h1 id="Summary">Summary</h1>
+	<div class="lead">
+    Send an email through CakeMail
+    </div>
 
-			<h1 id="Namespaces">Namespaces</h1>
-			<div class="box">
-				<div class="box-body no-padding table-responsive">
-					<table class="table table-striped table-hover two-cols">
-						<thead>
-							<tr>
-								<th>Namespace</th>
-									<th>Summary</th>
-							</tr>
-						</thead>
-							<tbody><tr>
-								<td><a href="/Cake.CakeMail/api/Cake">Cake</a></td>
-									<td></td>
-							</tr>
-					</tbody></table>
-				</div>
-			</div>
-		
+		<div class="panel panel-default">
+  			<div class="panel-body">	
+				<dl class="dl-horizontal">	
+						
+						<dt>Namespace</dt>
+						<dd><a href="/Cake.CakeMail/api/Cake.CakeMail">Cake<wbr>.CakeMail</a></dd>
+					
+						<dt>Containing Type</dt>
+						<dd><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider">CakeMailProvider</a></dd>		
+					
+				</dl>
+  			</div>
+		</div>
+
+	<h1 id="Syntax">Syntax</h1>
+	<pre><code>[CakeAliasCategory("Email")]
+public CakeMailResult SendEmail(string senderName, string senderAddress, MailAddress recipient, string subject, string htmlContent, string textContent, CakeMailSettings settings)</code></pre>
+
+	<h1 id="Examples">Examples</h1>
+	<div>
+    <pre><code class="cs">var apiKey = "... your api key ...";
+var userName = "... your username ...";
+var password = "... your password ...";
+try
+{
+    var result = CakeMail.SendEmail(
+        senderName: "Bob Smith",
+        senderAddress: "bob@example.com",
+        recipientAddress: "jane@example.com",
+        subject: "This is a test",
+        htmlContent: "This is a test",
+        textContent: "This is a test",
+        settings: new CakeMailEmailSettings
+        {
+        ApiKey = apiKey,
+        UserName = userName,
+        Password = password
+        }
+    );
+    if (result.Ok)
+    {
+        Information("Email succcessfully sent");
+    }
+    else
+    {
+        Error("Failed to send email: {0}", result.Error);
+    }
+}
+catch(Exception ex)
+{
+    Error("{0}", ex);
+}</code></pre>
+    </div>
+
+
+	<h1 id="Attributes">Attributes</h1>
+	<div class="box">
+		<div class="box-body no-padding table-responsive">
+			<table class="table table-striped table-hover two-cols">
+				<thead>
+					<tr>
+						<th>Type</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+					<tbody><tr>
+						<td>CakeAliasCategory</td>
+						<td></td>
+					</tr>
+			</tbody></table>
+		</div>
+	</div>	
+
+
+	<h1 id="Parameters">Parameters</h1>
+	<div class="box">
+		<div class="box-body no-padding table-responsive">
+			<table class="table table-striped table-hover three-cols">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+					<tbody><tr>
+						<td>senderName</td>
+						<td>string</td>
+						<td>The name of the person sending the email</td>
+					</tr>
+					<tr>
+						<td>senderAddress</td>
+						<td>string</td>
+						<td>The email addresses of the person sending the email</td>
+					</tr>
+					<tr>
+						<td>recipient</td>
+						<td>MailAddress</td>
+						<td>The MailAddress of the person who will recieve the email</td>
+					</tr>
+					<tr>
+						<td>subject</td>
+						<td>string</td>
+						<td>The subject line of the email</td>
+					</tr>
+					<tr>
+						<td>htmlContent</td>
+						<td>string</td>
+						<td>The HTML content</td>
+					</tr>
+					<tr>
+						<td>textContent</td>
+						<td>string</td>
+						<td>The text content</td>
+					</tr>
+					<tr>
+						<td>settings</td>
+						<td><a href="/Cake.CakeMail/api/Cake.CakeMail.Email/CakeMailSettings">CakeMailSettings</a></td>
+						<td>The settings to be used when sending the email</td>
+					</tr>
+			</tbody></table>
+		</div>
+	</div>	
+
+	<h1 id="ReturnValue">Return Value</h1>
+	<div class="box">
+		<div class="box-body no-padding table-responsive">
+			<table class="table table-striped table-hover two-cols">
+				<thead>
+					<tr>
+						<th>Type</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody><tr>
+					<td><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult">CakeMailResult</a></td>
+					<td>An instance of <code class="cs"><a href="/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult">CakeMailResult</a></code> indicating success/failure</td>
+				</tr>
+			</tbody></table>
+		</div>
+	</div>	
+
+
 	
 </section>
                 
