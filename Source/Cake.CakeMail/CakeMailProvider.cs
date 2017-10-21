@@ -1,12 +1,12 @@
-﻿using Cake.CakeMail.Email;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Cake.CakeMail.Email;
 using Cake.Common.Diagnostics;
 using Cake.Core;
 using Cake.Core.Annotations;
 using Cake.Email.Common;
 using CakeMail.RestClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Cake.CakeMail
 {
@@ -86,7 +86,7 @@ namespace Cake.CakeMail
         /// </summary>
         /// <param name="senderName">The name of the person sending the email</param>
         /// <param name="senderAddress">The email addresses of the person sending the email</param>
-        /// <param name="recipientAddress">The email addresses of the person who will recieve the email</param>
+        /// <param name="recipient">The MailAddress of the person who will recieve the email</param>
         /// <param name="subject">The subject line of the email</param>
         /// <param name="htmlContent">The HTML content</param>
         /// <param name="textContent">The text content</param>
@@ -140,7 +140,7 @@ namespace Cake.CakeMail
         /// </summary>
         /// <param name="senderName">The name of the person sending the email</param>
         /// <param name="senderAddress">The email addresses of the person sending the email</param>
-        /// <param name="recipients">The email addresses of the recipients who will recieve the email</param>
+        /// <param name="recipients">The MailAddress of the recipients who will recieve the email</param>
         /// <param name="subject">The subject line of the email</param>
         /// <param name="htmlContent">The HTML content</param>
         /// <param name="textContent">The text content</param>
@@ -194,7 +194,7 @@ namespace Cake.CakeMail
         /// </summary>
         /// <param name="senderName">The name of the person sending the email</param>
         /// <param name="senderAddress">The email addresses of the person sending the email</param>
-        /// <param name="recipients">The email addresses of the recipients who will recieve the email</param>
+        /// <param name="recipientsAddress">The email addresses of the recipients who will recieve the email</param>
         /// <param name="subject">The subject line of the email</param>
         /// <param name="htmlContent">The HTML content</param>
         /// <param name="textContent">The text content</param>
