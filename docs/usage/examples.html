@@ -109,7 +109,7 @@
 	</section>
 	<section class="content">
 		<p><strong>Sending an email to a single recipient:</strong></p>
-<pre><code class="language-csharp">#addin Cake.CakeMail
+<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.5.0&amp;loaddependencies=true
 
 var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
 var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
@@ -151,7 +151,7 @@ Task(&quot;SendEmail&quot;)
 });
 </code></pre>
 <p><strong>Sending an email to multiple recipients:</strong></p>
-<pre><code class="language-csharp">#addin Cake.CakeMail
+<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.5.0&amp;loaddependencies=true
 
 var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
 var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
