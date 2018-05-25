@@ -1,7 +1,7 @@
 ﻿using Cake.CakeMail.Email;
-using Cake.Common.Diagnostics;
 using Cake.Core;
 using Cake.Core.Annotations;
+using Cake.Core.Diagnostics;
 using Cake.Email.Common;
 using CakeMail.RestClient;
 using System;
@@ -273,7 +273,7 @@ namespace Cake.CakeMail
 				}
 
 				var client = new CakeMailRestClient(settings.ApiKey);
-				_context.Verbose("Sending email to {0} via the CakeMail API...", string.Join(", ", safeRecipients.ToArray()));
+				_context.Log.Verbose("Sending email to {0} via the CakeMail API...", string.Join(", ", safeRecipients.ToArray()));
 
 				var loginInfo = client.Users.LoginAsync(settings.UserName, settings.Password).Result;
 				var userKey = loginInfo.UserKey;
