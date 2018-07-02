@@ -34,14 +34,6 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"CakeMailProvider",
-        content:"CakeMailProvider",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:1,
         title:"CakeMailAliases",
         content:"CakeMailAliases",
         description:'',
@@ -49,25 +41,27 @@ var searchModule = function() {
     });
 
     a({
-        id:2,
-        title:"CakeMailSettings",
-        content:"CakeMailSettings",
+        id:1,
+        title:"CakeMailProvider",
+        content:"CakeMailProvider",
         description:'',
         tags:''
     });
 
     a({
-        id:3,
+        id:2,
         title:"CakeMailResult",
         content:"CakeMailResult",
         description:'',
         tags:''
     });
 
-    y({
-        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
-        title:"CakeMailProvider",
-        description:""
+    a({
+        id:3,
+        title:"CakeMailSettings",
+        content:"CakeMailSettings",
+        description:'',
+        tags:''
     });
 
     y({
@@ -77,14 +71,20 @@ var searchModule = function() {
     });
 
     y({
-        url:'/Cake.CakeMail/api/Cake.CakeMail.Email/CakeMailSettings',
-        title:"CakeMailSettings",
+        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
+        title:"CakeMailProvider",
         description:""
     });
 
     y({
         url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
         title:"CakeMailResult",
+        description:""
+    });
+
+    y({
+        url:'/Cake.CakeMail/api/Cake.CakeMail.Email/CakeMailSettings',
+        title:"CakeMailSettings",
         description:""
     });
 
