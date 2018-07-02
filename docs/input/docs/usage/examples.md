@@ -1,7 +1,7 @@
 __Sending an email to a single recipient:__
 
 ```csharp
-#addin Cake.CakeMail&version=0.5.0&loaddependencies=true
+#addin Cake.CakeMail&version=0.6.0&loaddependencies=true
 
 var apiKey = EnvironmentVariable("CAKEMAIL_API_KEY");
 var userName = EnvironmentVariable("CAKEMAIL_USERNAME");
@@ -46,7 +46,7 @@ Task("SendEmail")
 __Sending an email to multiple recipients:__
 
 ```csharp
-#addin Cake.CakeMail&version=0.5.0&loaddependencies=true
+#addin Cake.CakeMail&version=0.6.0&loaddependencies=true
 
 var apiKey = EnvironmentVariable("CAKEMAIL_API_KEY");
 var userName = EnvironmentVariable("CAKEMAIL_USERNAME");
