@@ -11,7 +11,7 @@ using System.Linq;
 namespace Cake.CakeMail
 {
 	/// <summary>
-	/// Contains functionality related to CakeMail API
+	/// Contains functionality related to CakeMail API.
 	/// </summary>
 	[CakeAliasCategory("CakeMail")]
 	public sealed class CakeMailProvider
@@ -28,16 +28,16 @@ namespace Cake.CakeMail
 		}
 
 		/// <summary>
-		/// Send an email through CakeMail
+		/// Send an email through CakeMail.
 		/// </summary>
-		/// <param name="senderName">The name of the person sending the email</param>
-		/// <param name="senderAddress">The email addresses of the person sending the email</param>
-		/// <param name="recipientAddress">The email addresses of the person who will recieve the email</param>
-		/// <param name="subject">The subject line of the email</param>
-		/// <param name="htmlContent">The HTML content</param>
-		/// <param name="textContent">The text content</param>
-		/// <param name="settings">The settings to be used when sending the email</param>
-		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure</returns>
+		/// <param name="senderName">The name of the person sending the email.</param>
+		/// <param name="senderAddress">The email addresses of the person sending the email.</param>
+		/// <param name="recipientAddress">The email addresses of the person who will recieve the email.</param>
+		/// <param name="subject">The subject line of the email.</param>
+		/// <param name="htmlContent">The HTML content.</param>
+		/// <param name="textContent">The text content.</param>
+		/// <param name="settings">The settings to be used when sending the email.</param>
+		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure.</returns>
 		/// <example>
 		/// <code>
 		/// var apiKey = "... your api key ...";
@@ -82,16 +82,16 @@ namespace Cake.CakeMail
 		}
 
 		/// <summary>
-		/// Send an email through CakeMail
+		/// Send an email through CakeMail.
 		/// </summary>
-		/// <param name="senderName">The name of the person sending the email</param>
-		/// <param name="senderAddress">The email addresses of the person sending the email</param>
-		/// <param name="recipient">The MailAddress of the person who will recieve the email</param>
-		/// <param name="subject">The subject line of the email</param>
-		/// <param name="htmlContent">The HTML content</param>
-		/// <param name="textContent">The text content</param>
-		/// <param name="settings">The settings to be used when sending the email</param>
-		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure</returns>
+		/// <param name="senderName">The name of the person sending the email.</param>
+		/// <param name="senderAddress">The email addresses of the person sending the email.</param>
+		/// <param name="recipient">The MailAddress of the person who will recieve the email.</param>
+		/// <param name="subject">The subject line of the email.</param>
+		/// <param name="htmlContent">The HTML content.</param>
+		/// <param name="textContent">The text content.</param>
+		/// <param name="settings">The settings to be used when sending the email.</param>
+		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure.</returns>
 		/// <example>
 		/// <code>
 		/// var apiKey = "... your api key ...";
@@ -136,16 +136,16 @@ namespace Cake.CakeMail
 		}
 
 		/// <summary>
-		/// Send an email through CakeMail
+		/// Send an email through CakeMail.
 		/// </summary>
-		/// <param name="senderName">The name of the person sending the email</param>
-		/// <param name="senderAddress">The email addresses of the person sending the email</param>
-		/// <param name="recipients">The MailAddress of the recipients who will recieve the email</param>
-		/// <param name="subject">The subject line of the email</param>
-		/// <param name="htmlContent">The HTML content</param>
-		/// <param name="textContent">The text content</param>
-		/// <param name="settings">The settings to be used when sending the email</param>
-		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure</returns>
+		/// <param name="senderName">The name of the person sending the email.</param>
+		/// <param name="senderAddress">The email addresses of the person sending the email.</param>
+		/// <param name="recipients">The MailAddress of the recipients who will recieve the email.</param>
+		/// <param name="subject">The subject line of the email.</param>
+		/// <param name="htmlContent">The HTML content.</param>
+		/// <param name="textContent">The text content.</param>
+		/// <param name="settings">The settings to be used when sending the email.</param>
+		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure.</returns>
 		/// <example>
 		/// <code>
 		/// var apiKey = "... your api key ...";
@@ -190,16 +190,16 @@ namespace Cake.CakeMail
 		}
 
 		/// <summary>
-		/// Send an email through CakeMail
+		/// Send an email through CakeMail.
 		/// </summary>
-		/// <param name="senderName">The name of the person sending the email</param>
-		/// <param name="senderAddress">The email addresses of the person sending the email</param>
-		/// <param name="recipientsAddress">The email addresses of the recipients who will recieve the email</param>
-		/// <param name="subject">The subject line of the email</param>
-		/// <param name="htmlContent">The HTML content</param>
-		/// <param name="textContent">The text content</param>
-		/// <param name="settings">The settings to be used when sending the email</param>
-		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure</returns>
+		/// <param name="senderName">The name of the person sending the email.</param>
+		/// <param name="senderAddress">The email addresses of the person sending the email.</param>
+		/// <param name="recipientsAddress">The email addresses of the recipients who will recieve the email.</param>
+		/// <param name="subject">The subject line of the email.</param>
+		/// <param name="htmlContent">The HTML content.</param>
+		/// <param name="textContent">The text content.</param>
+		/// <param name="settings">The settings to be used when sending the email.</param>
+		/// <returns>An instance of <see cref="CakeMailResult"/> indicating success/failure.</returns>
 		/// <example>
 		/// <code>
 		/// var apiKey = "... your api key ...";

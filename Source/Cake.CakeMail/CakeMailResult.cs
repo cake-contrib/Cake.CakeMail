@@ -4,7 +4,7 @@ using System.Text;
 namespace Cake.CakeMail
 {
 	/// <summary>
-	/// The result of CakeMailProvider API post
+	/// The result of CakeMailProvider API post.
 	/// </summary>
 	[CakeAliasCategory("CakeMail")]
 	public sealed class CakeMailResult
@@ -12,9 +12,9 @@ namespace Cake.CakeMail
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CakeMailResult"/> class.
 		/// </summary>
-		/// <param name="ok">Indicating success or failure</param>
-		/// <param name="timeStamp">Timestamp of the message</param>
-		/// <param name="error">Error message on failure</param>
+		/// <param name="ok">Indicating success or failure.</param>
+		/// <param name="timeStamp">Timestamp of the message.</param>
+		/// <param name="error">Error message on failure.</param>
 		public CakeMailResult(bool ok, string timeStamp, string error)
 		{
 			Ok = ok;
@@ -23,24 +23,24 @@ namespace Cake.CakeMail
 		}
 
 		/// <summary>
-		/// Gets a value indicating whether success or failure, <see cref="Error"/> for info on failure
+		/// Gets a value indicating whether success or failure, <see cref="Error"/> for info on failure.
 		/// </summary>
 		public bool Ok { get; private set; }
 
 		/// <summary>
-		/// Gets the Timestamp of the message
+		/// Gets the Timestamp of the message.
 		/// </summary>
 		public string TimeStamp { get; private set; }
 
 		/// <summary>
-		/// Gets the Error message on failure
+		/// Gets the Error message on failure.
 		/// </summary>
 		public string Error { get; private set; }
 
 		/// <summary>
-		/// Convert this instance of value to a string representation
+		/// Convert this instance of value to a string representation.
 		/// </summary>
-		/// <returns>The complete string representation of the CakeMailResult</returns>
+		/// <returns>The complete string representation of the CakeMailResult.</returns>
 		public override string ToString()
 		{
 			var builder = new StringBuilder();

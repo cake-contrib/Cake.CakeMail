@@ -3,7 +3,7 @@
 namespace Cake.CakeMail.Email
 {
 	/// <summary>
-	/// Class that lets you override default API settings
+	/// Class that lets you override default API settings.
 	/// </summary>
 	[CakeAliasCategory("CakeMail")]
 	public sealed class CakeMailSettings
@@ -24,7 +24,7 @@ namespace Cake.CakeMail.Email
 		public string Password { get; set; }
 
 		/// <summary>
-		/// Gets or sets the Optional flag for if should throw exception on failure
+		/// Gets or sets the Optional flag for if should throw exception on failure.
 		/// </summary>
 		public bool? ThrowOnFail { get; set; }
 	}
