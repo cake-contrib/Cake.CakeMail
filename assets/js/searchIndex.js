@@ -34,16 +34,16 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"CakeMailProvider",
-        content:"CakeMailProvider",
+        title:"CakeMailResult",
+        content:"CakeMailResult",
         description:'',
         tags:''
     });
 
     a({
         id:1,
-        title:"CakeMailResult",
-        content:"CakeMailResult",
+        title:"CakeMailAliases",
+        content:"CakeMailAliases",
         description:'',
         tags:''
     });
@@ -58,21 +58,21 @@ var searchModule = function() {
 
     a({
         id:3,
-        title:"CakeMailAliases",
-        content:"CakeMailAliases",
+        title:"CakeMailProvider",
+        content:"CakeMailProvider",
         description:'',
         tags:''
     });
 
     y({
-        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
-        title:"CakeMailProvider",
+        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
+        title:"CakeMailResult",
         description:""
     });
 
     y({
-        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
-        title:"CakeMailResult",
+        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailAliases',
+        title:"CakeMailAliases",
         description:""
     });
 
@@ -83,8 +83,8 @@ var searchModule = function() {
     });
 
     y({
-        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailAliases',
-        title:"CakeMailAliases",
+        url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
+        title:"CakeMailProvider",
         description:""
     });
 
