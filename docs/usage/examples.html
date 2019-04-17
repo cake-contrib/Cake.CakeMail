@@ -85,10 +85,12 @@
 
                     <ul class="sidebar-menu">
                         
+
                 <li class="treeview active">
                     <a href="/Cake.CakeMail/docs/usage">Usage</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
-                                        <li class="selected"><a href="/Cake.CakeMail/docs/usage/examples">Examples</a></li>
+                        
+                <li class="selected"><a href="/Cake.CakeMail/docs/usage/examples">Examples</a></li>
 
                     </ul>
                 </li>
@@ -104,12 +106,12 @@
 
 
 
-	<section class="content-header">
-		<h1>Examples</h1>
-	</section>
+		<section class="content-header">
+			<h1>Examples</h1>
+		</section>
 	<section class="content">
 		<p><strong>Sending an email to a single recipient:</strong></p>
-<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.6.0&amp;loaddependencies=true
+<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.7.0&amp;loaddependencies=true
 
 var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
 var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
@@ -151,7 +153,7 @@ Task(&quot;SendEmail&quot;)
 });
 </code></pre>
 <p><strong>Sending an email to multiple recipients:</strong></p>
-<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.6.0&amp;loaddependencies=true
+<pre><code class="language-csharp">#addin Cake.CakeMail&amp;version=0.7.0&amp;loaddependencies=true
 
 var apiKey = EnvironmentVariable(&quot;CAKEMAIL_API_KEY&quot;);
 var userName = EnvironmentVariable(&quot;CAKEMAIL_USERNAME&quot;);
