@@ -17,7 +17,7 @@
     <Owners>Jericho cake-contrib</Owners>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.CakeMail/</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/cake-contrib/Cake.CakeMail/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Copyright (c) Cake Contributions 2016 - Present</Copyright>
     <Company>Cake Contributions</Company>
   </PropertyGroup>
