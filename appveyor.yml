@@ -1,17 +1,15 @@
-image: Visual Studio 2017
+# Before Build
+init:
+  - git config --global core.autocrlf true
 
-#---------------------------------#
-#  Build Script                   #
-#---------------------------------#
+#  Build Script
 build_script:
   - ps: .\build.ps1 -Target AppVeyor
 
 # Tests
 test: off
 
-#---------------------------------#
-#        Branches to build        #
-#---------------------------------#
+# Branches to build
 branches:
   # Whitelist
   only:
@@ -20,8 +18,9 @@ branches:
     - /release/.*/
     - /hotfix/.*/
 
-#---------------------------------#
-#  Build Cache                    #
-#---------------------------------#
+# Build Cache
 cache:
-- tools -> setup.cake
+  - tools -> setup.cake, tools\packages.config
+
+# Environment configuration
+image: Visual Studio 2017
