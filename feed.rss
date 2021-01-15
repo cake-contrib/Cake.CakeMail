@@ -4,9 +4,9 @@
 		<title>Cake.CakeMail</title>
 		<link>http://cake-contrib.github.io/Cake.CakeMail</link>
 		<description />
-		<copyright>2019</copyright>
-		<pubDate>Wed, 17 Apr 2019 19:49:45 GMT</pubDate>
-		<lastBuildDate>Wed, 17 Apr 2019 19:49:45 GMT</lastBuildDate>
+		<copyright>2021</copyright>
+		<pubDate>Fri, 15 Jan 2021 18:06:58 GMT</pubDate>
+		<lastBuildDate>Fri, 15 Jan 2021 18:06:58 GMT</lastBuildDate>
 		<item>
 			<title>New Release - 0.7.0</title>
 			<link>http://cake-contrib.github.io/Cake.CakeMail/blog/new-release-0.7.0</link>
@@ -30,7 +30,7 @@
     &amp;lt;package id=&amp;quot;Cake&amp;quot; version=&amp;quot;0.33.0&amp;quot; /&amp;gt;
 &amp;lt;/packages&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
@@ -56,7 +56,7 @@
     &amp;lt;package id=&amp;quot;Cake&amp;quot; version=&amp;quot;0.28.0&amp;quot; /&amp;gt;
 &amp;lt;/packages&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
@@ -82,7 +82,7 @@
     &amp;lt;package id=&amp;quot;Cake&amp;quot; version=&amp;quot;0.26.0&amp;quot; /&amp;gt;
 &amp;lt;/packages&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
@@ -110,13 +110,13 @@ Your &lt;code&gt;tools\package.config&lt;/code&gt; should be:&lt;/p&gt;
 &lt;p&gt;Finally, and this is critical, you need to &amp;quot;opt-in&amp;quot; the new feature in CakeBuild that this addin depends on. If you are using the standard bootstrapper, you opt-in these feature like so:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;.\build.ps1 --nuget_useinprocessclient=true --nuget_loaddependencies=true
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
 			<title>New Release - 0.3.0</title>
 			<link>http://cake-contrib.github.io/Cake.CakeMail/blog/new-release-0.3.0</link>
-			<description>&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;</description>
+			<description>&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;</description>
 			<author>jericho</author>
 			<guid>http://cake-contrib.github.io/Cake.CakeMail/blog/new-release-0.3.0</guid>
 			<pubDate>Sat, 15 Apr 2017 00:00:00 GMT</pubDate>
@@ -124,7 +124,7 @@ Your &lt;code&gt;tools\package.config&lt;/code&gt; should be:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.CakeMail/issues/14"&gt;&lt;strong&gt;#14&lt;/strong&gt;&lt;/a&gt; Allow email to be sent to multiple recipients&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
@@ -145,7 +145,7 @@ Your &lt;code&gt;tools\package.config&lt;/code&gt; should be:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.CakeMail/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add Wyam Documentation generation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It was decided that this was required due to the fact that with the impending release of Cake 0.18.0 all addins need to be at least 0.16.0, so we decided to upload to the latest.&lt;/p&gt;
-&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://gitter.im/cake-contrib/Lobby"&gt;Gitter Channel&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to reach out in the &lt;a href="https://github.com/cake-build/cake/discussions/categories/extension-q-a"&gt;GitHub discussions&lt;/a&gt; if you have any issues using this addin.&lt;/p&gt;
 </content:encoded>
 		</item>
 	</channel>
