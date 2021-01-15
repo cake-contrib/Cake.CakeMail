@@ -54,14 +54,14 @@ namespace Cake.CakeMail
 		///         textContent: "This is a test",
 		///         settings: new CakeMailEmailSettings
 		///         {
-		///         ApiKey = apiKey,
-		///         UserName = userName,
-		///         Password = password
+		///             ApiKey = apiKey,
+		///             UserName = userName,
+		///             Password = password
 		///         }
 		///     );
 		///     if (result.Ok)
 		///     {
-		///         Information("Email succcessfully sent");
+		///         Information("Email successfully sent");
 		///     }
 		///     else
 		///     {
@@ -108,14 +108,14 @@ namespace Cake.CakeMail
 		///         textContent: "This is a test",
 		///         settings: new CakeMailEmailSettings
 		///         {
-		///         ApiKey = apiKey,
-		///         UserName = userName,
-		///         Password = password
+		///             ApiKey = apiKey,
+		///             UserName = userName,
+		///             Password = password
 		///         }
 		///     );
 		///     if (result.Ok)
 		///     {
-		///         Information("Email succcessfully sent");
+		///         Information("Email successfully sent");
 		///     }
 		///     else
 		///     {
@@ -162,14 +162,14 @@ namespace Cake.CakeMail
 		///         textContent: "This is a test",
 		///         settings: new CakeMailEmailSettings
 		///         {
-		///         ApiKey = apiKey,
-		///         UserName = userName,
-		///         Password = password
+		///             ApiKey = apiKey,
+		///             UserName = userName,
+		///             Password = password
 		///         }
 		///     );
 		///     if (result.Ok)
 		///     {
-		///         Information("Email succcessfully sent");
+		///         Information("Email successfully sent");
 		///     }
 		///     else
 		///     {
@@ -216,14 +216,14 @@ namespace Cake.CakeMail
 		///         textContent: "This is a test",
 		///         settings: new CakeMailEmailSettings
 		///         {
-		///         ApiKey = apiKey,
-		///         UserName = userName,
-		///         Password = password
+		///             ApiKey = apiKey,
+		///             UserName = userName,
+		///             Password = password
 		///         }
 		///     );
 		///     if (result.Ok)
 		///     {
-		///         Information("Email succcessfully sent");
+		///         Information("Email successfully sent");
 		///     }
 		///     else
 		///     {
