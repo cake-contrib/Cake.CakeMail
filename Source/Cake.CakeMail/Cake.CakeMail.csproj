@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net461;netstandard2.0;net5.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <OutputType>Library</OutputType>
     <DebugType>full</DebugType>
@@ -16,19 +16,24 @@
     <Authors>Jericho</Authors>
     <Owners>Jericho cake-contrib</Owners>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.CakeMail/</PackageProjectUrl>
+    <PackageIcon>PackageIcon.png</PackageIcon>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<RepositoryType>git</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.CakeMail.git</RepositoryUrl>
     <Copyright>Copyright (c) Cake Contributions 2016 - Present</Copyright>
     <Company>Cake Contributions</Company>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
-    <PackageReference Include="Cake.Email.Common" Version="0.3.0" />
-    <PackageReference Include="CakeMail.RestClient" version="8.3.0" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.1-rc.114" PrivateAssets="All" />
+    <PackageReference Include="Cake.Core" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Email.Common" Version="1.0.0" />
+    <PackageReference Include="CakeMail.RestClient" version="9.0.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\PackageIcon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>

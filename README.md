@@ -7,19 +7,22 @@ Cake.CakeMail is an Addin for [Cake](http://cakebuild.net/) which allows sending
 ## Usage
 
 First, include a reference to this addin in your script like this:
+
 ```csharp
-#addin nuget:?package=Cake.CakeMail&version=0.6.0&loaddependencies=true
+#addin nuget:?package=Cake.CakeMail&version=0.7.0&loaddependencies=true
 ```
 
-Second, we highly recommend that you add the following 'using' statement in your script. Technically, this is not necessary, but it simplifies dealing with attachements: 
+Second, we highly recommend that you add the following 'using' statement in your script. Technically, this is not necessary, but it simplifies dealing with attachements:
+
 ```csharp
 using Cake.Email.Common;
 ```
 
-Also, this addin is designed to take advantage of some of the new features released in CakeBuild version `0.28.0` therefore your `tools\package.config` should look like this:
+Also, this addin is designed to take advantage of some of the new features released in CakeBuild version `0.33.0` therefore your `tools\package.config` should look like this:
+
 ```xml
 <packages>
-    <package id="Cake" version="0.28.0" />
+    <package id="Cake" version="0.33.0" />
 </packages>
 ```
 
@@ -45,6 +48,5 @@ Also, this addin is designed to take advantage of some of the new features relea
 - [Documentation](https://cake-contrib.github.io/Cake.CakeMail/)
 
 ## Chat Room
-Come join in the conversation about Cake.CaekMail in our Gitter Chat Room
 
-[![Join the chat at https://gitter.im/cake-contrib/Lobby](https://badges.gitter.im/cake-contrib/Lobby.svg)](https://gitter.im/cake-contrib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Please do not hesitate to reach out in the [GitHub discussions](https://github.com/cake-build/cake/discussions/categories/extension-q-a) if you have any issues using this addin.
