@@ -27,8 +27,8 @@
   <ItemGroup>
     <PackageReference Include="Cake.Core" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="Cake.Email.Common" Version="1.0.0" />
-    <PackageReference Include="CakeMail.RestClient" version="8.3.0" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.1-rc.114" PrivateAssets="All" />
+    <PackageReference Include="CakeMail.RestClient" version="9.0.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
