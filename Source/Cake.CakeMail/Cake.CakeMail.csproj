@@ -18,7 +18,7 @@
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.CakeMail/</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<RepositoryType>git</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.CakeMail.git</RepositoryUrl>
     <Copyright>Copyright (c) Cake Contributions 2016 - Present</Copyright>
     <Company>Cake Contributions</Company>
