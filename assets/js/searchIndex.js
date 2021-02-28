@@ -53,14 +53,14 @@ var searchModule = function() {
     a(
         {
             id:1,
-            title:"CakeMailResult",
-            content:"CakeMailResult",
+            title:"CakeMailProvider",
+            content:"CakeMailProvider",
             description:'',
             tags:''
         },
         {
-            url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
-            title:"CakeMailResult",
+            url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
+            title:"CakeMailProvider",
             description:""
         }
     );
@@ -81,14 +81,14 @@ var searchModule = function() {
     a(
         {
             id:3,
-            title:"CakeMailProvider",
-            content:"CakeMailProvider",
+            title:"CakeMailResult",
+            content:"CakeMailResult",
             description:'',
             tags:''
         },
         {
-            url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailProvider',
-            title:"CakeMailProvider",
+            url:'/Cake.CakeMail/api/Cake.CakeMail/CakeMailResult',
+            title:"CakeMailResult",
             description:""
         }
     );
