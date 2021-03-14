@@ -12,7 +12,7 @@
     <Title>Cake.CakeMail</Title>
     <Summary>Cake build aliases for sending emails via CakeMail.</Summary>
     <Description>Cake Build addin to provide Aliases for sending emails via CakeMail.</Description>
-    <PackageTags>Cake Script Build Email CakeMail</PackageTags>
+    <PackageTags>cake-addin Cake Script Build Email CakeMail</PackageTags>
     <Authors>Jericho</Authors>
     <Owners>Jericho cake-contrib</Owners>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.CakeMail/</PackageProjectUrl>
