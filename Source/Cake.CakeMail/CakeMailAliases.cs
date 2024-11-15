@@ -28,11 +28,7 @@ namespace Cake.CakeMail
 		[CakeNamespaceImport("Cake.CakeMail.Email")]
 		public static CakeMailProvider CakeMail(this ICakeContext context)
 		{
-			if (context == null)
-			{
-				throw new ArgumentNullException(nameof(context));
-			}
-
+			ArgumentNullException.ThrowIfNull(context, nameof(context));
 			return new CakeMailProvider(context);
 		}
 	}
