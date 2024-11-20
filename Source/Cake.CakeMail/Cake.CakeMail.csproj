@@ -11,9 +11,9 @@
 
   <PropertyGroup>
     <PackageId>Cake.CakeMail</PackageId>
-    <Title>Cake.CakeMail</Title>
+    <Title>[DEPRECATED] Cake.CakeMail</Title>
     <Summary>Cake build aliases for sending emails via CakeMail.</Summary>
-    <Description>Cake Build addin to provide Aliases for sending emails via CakeMail.</Description>
+    <Description>This addin was interacting with CakeMail's legacy API and is no longer maintained. Furthermore, one of the depencies is no longer maintained and references NuGet packages that contain security vulnerabilities.</Description>
     <PackageTags>cake-addin Cake Script Build Email CakeMail</PackageTags>
     <Authors>Jericho</Authors>
     <Owners>Jericho cake-contrib</Owners>
